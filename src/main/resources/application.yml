@@ -1,0 +1,25 @@
+server:
+  port: 8081
+  
+spring:
+  application:
+    name: plan-api
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: gaurav
+    url: jdbc:h2:mem:testdb
+    username: gaurav
+   
+plan-api:
+  message:
+     planSaveSucc: Plan saved successfully
+     planSaveFail: Plan doesnt save successfully
+     planUpadateSucc: Plan Updated
+     planUpdateFail: Plan doesnot updated
+     planDeleteSucc: Plan deleted successfully
+     planDeleteFail: Plan doesnot deleted 
+     planStatusChangeSucc: Plan status changed successfully
+     planSatatusChangeFail: Plan Status doenot changed
+     
+
+  
