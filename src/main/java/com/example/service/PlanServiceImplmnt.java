@@ -13,6 +13,8 @@ import com.example.entity.PlanCategory;
 import com.example.repo.PlanCategoryRepo;
 import com.example.repo.PlanRepo;
 
+import ch.qos.logback.classic.Logger;
+
 @Service
 public class PlanServiceImplmnt implements PlanService{
 	
@@ -64,7 +66,6 @@ public class PlanServiceImplmnt implements PlanService{
 	@Override
 	public Plan getPlanById(Integer planId) {
 		// TODO Auto-generated method stub
-		System.out.println("Get plan id from req : "+planId);
 		Optional<Plan> findById = planRepo.findById(planId);
 		if(findById.isPresent()) {
 			System.out.println("@@@"+findById.get());

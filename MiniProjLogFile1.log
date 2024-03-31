@@ -1,0 +1,524 @@
+2024-03-31 11:43:07,768 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 10460 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 11:43:07,773 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 11:43:07,859 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 11:43:07,859 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 11:43:08,812 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 11:43:08,882 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2024-03-31 11:43:09,513 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 11:43:09,525 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:43:09,528 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 11:43:09,529 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 11:43:09,599 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 11:43:09,600 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 1738 ms
+2024-03-31 11:43:09,637 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Starting...
+2024-03-31 11:43:09,860 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 11:43:09,862 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Start completed.
+2024-03-31 11:43:09,876 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 11:43:10,037 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 11:43:10,105 [restartedMain] INFO  org.hibernate.Version                              -HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-31 11:43:10,156 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 11:43:10,490 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 11:43:11,666 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 11:43:11,722 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:43:12,237 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 11:43:12,792 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 11:43:12,823 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:43:12,855 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 11:43:12,875 [restartedMain] INFO  com.example.Application                            -Started Application in 5.631 seconds (process running for 7.021)
+2024-03-31 11:43:35,581 [http-nio-8081-exec-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31 11:43:35,582 [http-nio-8081-exec-7] INFO  o.s.web.servlet.DispatcherServlet                  -Initializing Servlet 'dispatcherServlet'
+2024-03-31 11:43:35,585 [http-nio-8081-exec-7] INFO  o.s.web.servlet.DispatcherServlet                  -Completed initialization in 2 ms
+2024-03-31 11:43:42,179 [http-nio-8081-exec-2] INFO  o.springdoc.api.AbstractOpenApiResource            -Init duration for springdoc-openapi is: 304 ms
+2024-03-31 11:44:28,231 [http-nio-8081-exec-6] INFO  c.e.restcontroller.PlanRestController              -Get the Plan Object to save the plan : Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 11:44:28,371 [http-nio-8081-exec-6] INFO  c.e.restcontroller.PlanRestController              -PLan saved Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 11:45:10,122 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-31 11:45:10,135 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:45:10,165 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:45:10,180 [Thread-5] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 11:45:10,181 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Shutdown initiated...
+2024-03-31 11:45:10,188 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Shutdown completed.
+2024-03-31 11:45:10,361 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 10460 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 11:45:10,363 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 11:45:10,674 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 11:45:10,687 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2024-03-31 11:45:10,826 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 11:45:10,827 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:45:10,828 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 11:45:10,828 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 11:45:10,855 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 11:45:10,855 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 485 ms
+2024-03-31 11:45:10,875 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-2 - Starting...
+2024-03-31 11:45:10,878 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 11:45:10,879 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-2 - Start completed.
+2024-03-31 11:45:10,879 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 11:45:10,914 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 11:45:10,919 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 11:45:10,927 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 11:45:11,009 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 11:45:11,017 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:45:11,196 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 11:45:11,383 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 11:45:11,401 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:45:11,407 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 11:45:11,416 [restartedMain] INFO  com.example.Application                            -Started Application in 1.106 seconds (process running for 125.562)
+2024-03-31 11:45:11,420 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  -Condition evaluation unchanged
+2024-03-31 11:45:18,559 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31 11:45:18,559 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Initializing Servlet 'dispatcherServlet'
+2024-03-31 11:45:18,562 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Completed initialization in 2 ms
+2024-03-31 11:45:18,585 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -Get the Plan Object to save the plan : Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 11:45:18,602 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -PLan saved Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 11:45:44,436 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-31 11:45:44,440 [Thread-7] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:45:44,478 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:45:44,483 [Thread-7] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 11:45:44,484 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-2 - Shutdown initiated...
+2024-03-31 11:45:44,486 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-2 - Shutdown completed.
+2024-03-31 11:45:44,606 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 10460 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 11:45:44,607 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 11:45:44,842 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 11:45:44,854 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2024-03-31 11:45:44,958 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 11:45:44,959 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:45:44,960 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 11:45:44,960 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 11:45:44,982 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 11:45:44,982 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 371 ms
+2024-03-31 11:45:44,997 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-3 - Starting...
+2024-03-31 11:45:45,000 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 11:45:45,000 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-3 - Start completed.
+2024-03-31 11:45:45,001 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 11:45:45,029 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 11:45:45,034 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 11:45:45,041 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 11:45:45,118 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 11:45:45,125 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:45:45,248 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 11:45:45,368 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 11:45:45,381 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:45:45,386 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 11:45:45,394 [restartedMain] INFO  com.example.Application                            -Started Application in 0.822 seconds (process running for 159.54)
+2024-03-31 11:45:45,396 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  -Condition evaluation unchanged
+2024-03-31 11:49:07,061 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-31 11:49:07,063 [Thread-12] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:49:07,080 [Thread-12] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:49:07,085 [Thread-12] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 11:49:07,087 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-3 - Shutdown initiated...
+2024-03-31 11:49:07,088 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-3 - Shutdown completed.
+2024-03-31 11:49:07,220 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 10460 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 11:49:07,221 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 11:49:07,516 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 11:49:07,532 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2024-03-31 11:49:07,681 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 11:49:07,682 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:49:07,683 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 11:49:07,683 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 11:49:07,713 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 11:49:07,714 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 488 ms
+2024-03-31 11:49:07,730 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-4 - Starting...
+2024-03-31 11:49:07,734 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 11:49:07,734 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-4 - Start completed.
+2024-03-31 11:49:07,744 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 11:49:07,783 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 11:49:07,789 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 11:49:07,800 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 11:49:07,890 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 11:49:07,903 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:49:08,064 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 11:49:08,189 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 11:49:08,200 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:49:08,206 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 11:49:08,213 [restartedMain] INFO  com.example.Application                            -Started Application in 1.046 seconds (process running for 362.36)
+2024-03-31 11:49:08,214 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  -Condition evaluation unchanged
+2024-03-31 11:49:17,596 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31 11:49:17,596 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Initializing Servlet 'dispatcherServlet'
+2024-03-31 11:49:17,600 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Completed initialization in 4 ms
+2024-03-31 11:49:17,610 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -Get the Plan Object to save the plan : 
+2024-03-31 11:49:17,620 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -PLan saved Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 11:50:31,246 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-31 11:50:31,251 [Thread-16] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:50:31,289 [Thread-16] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:50:31,294 [Thread-16] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 11:50:31,296 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-4 - Shutdown initiated...
+2024-03-31 11:50:31,298 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-4 - Shutdown completed.
+2024-03-31 11:50:31,404 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 10460 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 11:50:31,405 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 11:50:31,628 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 11:50:31,638 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2024-03-31 11:50:31,782 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 11:50:31,782 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:50:31,783 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 11:50:31,783 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 11:50:31,805 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 11:50:31,805 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 397 ms
+2024-03-31 11:50:31,819 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-5 - Starting...
+2024-03-31 11:50:31,822 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-5 - Added connection conn40: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 11:50:31,822 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-5 - Start completed.
+2024-03-31 11:50:31,823 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 11:50:31,853 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 11:50:31,857 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 11:50:31,864 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 11:50:31,935 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 11:50:31,941 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:50:32,081 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 11:50:32,219 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 11:50:32,231 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:50:32,236 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 11:50:32,242 [restartedMain] INFO  com.example.Application                            -Started Application in 0.874 seconds (process running for 446.388)
+2024-03-31 11:50:32,245 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  -Condition evaluation unchanged
+2024-03-31 11:50:50,174 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31 11:50:50,174 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Initializing Servlet 'dispatcherServlet'
+2024-03-31 11:50:50,178 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Completed initialization in 2 ms
+2024-03-31 11:50:50,187 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -Get the Plan Object to save the plan : 
+2024-03-31 11:50:50,213 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -PLan saved Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 11:51:01,515 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-31 11:51:01,520 [Thread-20] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:51:01,555 [Thread-20] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:51:01,559 [Thread-20] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 11:51:01,560 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-5 - Shutdown initiated...
+2024-03-31 11:51:01,562 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-5 - Shutdown completed.
+2024-03-31 11:51:01,680 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 10460 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 11:51:01,681 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 11:51:01,911 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 11:51:01,922 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2024-03-31 11:51:02,024 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 11:51:02,025 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:51:02,025 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 11:51:02,025 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 11:51:02,046 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 11:51:02,046 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 362 ms
+2024-03-31 11:51:02,061 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-6 - Starting...
+2024-03-31 11:51:02,063 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-6 - Added connection conn50: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 11:51:02,063 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-6 - Start completed.
+2024-03-31 11:51:02,063 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 11:51:02,098 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 11:51:02,103 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 11:51:02,110 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 11:51:02,182 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 11:51:02,188 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:51:02,312 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 11:51:02,472 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 11:51:02,485 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:51:02,491 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 11:51:02,498 [restartedMain] INFO  com.example.Application                            -Started Application in 0.853 seconds (process running for 476.644)
+2024-03-31 11:51:02,500 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  -Condition evaluation unchanged
+2024-03-31 11:51:08,428 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31 11:51:08,428 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Initializing Servlet 'dispatcherServlet'
+2024-03-31 11:51:08,430 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Completed initialization in 2 ms
+2024-03-31 11:51:08,444 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -Get the Plan Object to save the plan : 
+2024-03-31 11:51:08,456 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -PLan saved Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 11:51:19,217 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-31 11:51:19,223 [Thread-24] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:51:19,256 [Thread-24] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:51:19,262 [Thread-24] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 11:51:19,263 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-6 - Shutdown initiated...
+2024-03-31 11:51:19,264 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-6 - Shutdown completed.
+2024-03-31 11:51:19,422 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 10460 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 11:51:19,424 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 11:51:19,668 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 11:51:19,679 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2024-03-31 11:51:19,780 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 11:51:19,781 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:51:19,781 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 11:51:19,782 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 11:51:19,802 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 11:51:19,802 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 372 ms
+2024-03-31 11:51:19,821 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-7 - Starting...
+2024-03-31 11:51:19,831 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-7 - Added connection conn60: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 11:51:19,831 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-7 - Start completed.
+2024-03-31 11:51:19,831 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 11:51:19,864 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 11:51:19,869 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 11:51:19,875 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 11:51:19,939 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 11:51:19,945 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:51:20,071 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 11:51:20,207 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 11:51:20,219 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:51:20,224 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 11:51:20,231 [restartedMain] INFO  com.example.Application                            -Started Application in 0.87 seconds (process running for 494.378)
+2024-03-31 11:51:20,234 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  -Condition evaluation unchanged
+2024-03-31 11:51:27,186 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31 11:51:27,186 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Initializing Servlet 'dispatcherServlet'
+2024-03-31 11:51:27,188 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Completed initialization in 2 ms
+2024-03-31 11:51:27,197 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -Get the Plan Object to save the plan : Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 11:51:27,208 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -PLan saved Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 11:52:00,449 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-31 11:52:00,452 [Thread-28] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:52:00,493 [Thread-28] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:52:00,502 [Thread-28] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 11:52:00,503 [Thread-28] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-7 - Shutdown initiated...
+2024-03-31 11:52:00,506 [Thread-28] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-7 - Shutdown completed.
+2024-03-31 11:52:00,809 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 10460 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 11:52:00,809 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 11:52:01,020 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 11:52:01,031 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2024-03-31 11:52:01,125 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 11:52:01,126 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:52:01,126 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 11:52:01,127 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 11:52:01,149 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 11:52:01,149 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 337 ms
+2024-03-31 11:52:01,163 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-8 - Starting...
+2024-03-31 11:52:01,166 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-8 - Added connection conn70: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 11:52:01,169 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-8 - Start completed.
+2024-03-31 11:52:01,170 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 11:52:01,205 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 11:52:01,211 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 11:52:01,216 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 11:52:01,294 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 11:52:01,302 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:52:01,429 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 11:52:01,557 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 11:52:01,567 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:52:01,574 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 11:52:01,581 [restartedMain] INFO  com.example.Application                            -Started Application in 0.814 seconds (process running for 535.728)
+2024-03-31 11:52:01,583 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  -Condition evaluation unchanged
+2024-03-31 11:52:05,746 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31 11:52:05,746 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Initializing Servlet 'dispatcherServlet'
+2024-03-31 11:52:05,748 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Completed initialization in 2 ms
+2024-03-31 11:52:05,758 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -Get the Plan Object to save the plan : Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 11:52:05,768 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -PLan saved Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 11:56:51,041 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 520 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 11:56:51,046 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 11:56:51,130 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 11:56:51,131 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 11:56:52,288 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 11:56:52,391 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.
+2024-03-31 11:56:53,138 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 11:56:53,153 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:56:53,156 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 11:56:53,157 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 11:56:53,233 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 11:56:53,233 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 2100 ms
+2024-03-31 11:56:53,281 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Starting...
+2024-03-31 11:56:53,564 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 11:56:53,568 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Start completed.
+2024-03-31 11:56:53,584 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 11:56:53,780 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 11:56:53,861 [restartedMain] INFO  org.hibernate.Version                              -HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-31 11:56:53,912 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 11:56:54,237 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 11:56:55,603 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 11:56:55,658 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:56:56,284 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 11:56:56,928 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 -Unable to start LiveReload server
+2024-03-31 11:56:56,957 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:56:56,967 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-03-31 11:56:56,971 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:56:56,985 [restartedMain] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 11:56:56,986 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Shutdown initiated...
+2024-03-31 11:56:56,990 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Shutdown completed.
+2024-03-31 11:56:57,019 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger          -
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-31 11:56:57,061 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter             -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2024-03-31 11:57:03,971 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+2024-03-31 11:57:03,973 [RMI TCP Connection(17)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:57:03,987 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:57:03,990 [RMI TCP Connection(17)-127.0.0.1] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 11:57:03,992 [RMI TCP Connection(17)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-8 - Shutdown initiated...
+2024-03-31 11:57:03,994 [RMI TCP Connection(17)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-8 - Shutdown completed.
+2024-03-31 11:57:15,724 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 4364 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 11:57:15,729 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 11:57:15,820 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 11:57:15,820 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 11:57:17,025 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 11:57:17,141 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 87 ms. Found 2 JPA repository interfaces.
+2024-03-31 11:57:17,932 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 11:57:17,946 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:57:17,950 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 11:57:17,951 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 11:57:18,035 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 11:57:18,036 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 2215 ms
+2024-03-31 11:57:18,079 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Starting...
+2024-03-31 11:57:18,366 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 11:57:18,370 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Start completed.
+2024-03-31 11:57:18,386 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 11:57:18,595 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 11:57:18,682 [restartedMain] INFO  org.hibernate.Version                              -HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-31 11:57:18,735 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 11:57:19,097 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 11:57:20,479 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 11:57:20,536 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 11:57:21,141 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 11:57:21,801 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 11:57:21,841 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 11:57:21,880 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 11:57:21,897 [restartedMain] INFO  com.example.Application                            -Started Application in 6.782 seconds (process running for 8.431)
+2024-03-31 11:57:26,362 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31 11:57:26,364 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Initializing Servlet 'dispatcherServlet'
+2024-03-31 11:57:26,366 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Completed initialization in 1 ms
+2024-03-31 11:58:05,449 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -Get the Plan Object to save the plan : Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 12:00:05,838 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -PLan saved Plan(planId=0, planName=JRTP1, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 12:00:54,751 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-31 12:00:54,766 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 12:00:59,791 [Thread-5] WARN  org.apache.tomcat.util.net.NioEndpoint             -The executor associated with thread pool [http-nio-8081] has not fully shutdown. Some application threads may still be running.
+2024-03-31 12:00:59,802 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 12:00:59,829 [Thread-5] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 12:00:59,832 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Shutdown initiated...
+2024-03-31 12:00:59,837 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Shutdown completed.
+2024-03-31 12:01:02,304 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 4364 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 12:01:02,304 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 12:01:02,697 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 12:01:02,712 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2024-03-31 12:01:02,867 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 12:01:02,869 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 12:01:02,870 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 12:01:02,871 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 12:01:02,895 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 12:01:02,896 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 583 ms
+2024-03-31 12:01:02,917 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-2 - Starting...
+2024-03-31 12:01:02,921 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 12:01:02,922 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-2 - Start completed.
+2024-03-31 12:01:02,922 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 12:01:02,964 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 12:01:02,970 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 12:01:02,981 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 12:01:03,122 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 12:01:03,138 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 12:01:04,924 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 12:01:05,097 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 12:01:05,111 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 12:01:05,118 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 12:01:05,131 [restartedMain] INFO  com.example.Application                            -Started Application in 2.893 seconds (process running for 231.665)
+2024-03-31 12:01:05,135 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  -Condition evaluation unchanged
+2024-03-31 12:07:12,423 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+2024-03-31 12:07:12,425 [RMI TCP Connection(13)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 12:07:12,449 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 12:07:12,453 [RMI TCP Connection(13)-127.0.0.1] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 12:07:12,455 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-2 - Shutdown initiated...
+2024-03-31 12:07:12,457 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-2 - Shutdown completed.
+2024-03-31 12:07:21,227 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 1628 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 12:07:21,230 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 12:07:21,305 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-31 12:07:21,306 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-31 12:07:22,220 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 12:07:22,287 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2024-03-31 12:07:22,928 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 12:07:22,939 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 12:07:22,943 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 12:07:22,943 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 12:07:23,010 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 12:07:23,012 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 1704 ms
+2024-03-31 12:07:23,049 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Starting...
+2024-03-31 12:07:23,280 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 12:07:23,282 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Start completed.
+2024-03-31 12:07:23,297 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 12:07:23,464 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 12:07:23,530 [restartedMain] INFO  org.hibernate.Version                              -HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-31 12:07:23,575 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 12:07:23,872 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 12:07:25,073 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 12:07:25,127 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 12:07:25,852 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 12:07:26,387 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 12:07:26,416 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 12:07:26,440 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 12:07:26,461 [restartedMain] INFO  com.example.Application                            -Started Application in 5.714 seconds (process running for 7.013)
+2024-03-31 12:07:56,518 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31 12:07:56,519 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Initializing Servlet 'dispatcherServlet'
+2024-03-31 12:07:56,521 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  -Completed initialization in 2 ms
+2024-03-31 12:07:56,708 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -Get the Plan Object to save the plan : Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 12:07:56,835 [http-nio-8081-exec-1] INFO  c.e.restcontroller.PlanRestController              -PLan saved Plan(planId=0, planName=JRTP, planStartDate=2024-03-31, planEndDate=2024-03-31, activeSw=YES, planCategoryId=1, createdBy=gaurav, updatedBy=gaurav, createDate=null, updateDate=null)
+2024-03-31 12:11:36,568 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -Restarting due to 12 class path changes (0 additions, 11 deletions, 1 modification)
+2024-03-31 12:11:36,575 [Thread-5] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 12:11:36,598 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 12:11:36,617 [Thread-5] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 12:11:36,619 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Shutdown initiated...
+2024-03-31 12:11:36,628 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Shutdown completed.
+2024-03-31 12:11:36,854 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 1628 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 12:11:36,855 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 12:11:37,658 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 12:11:37,664 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2024-03-31 12:11:38,016 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 12:11:38,019 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 12:11:38,021 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 12:11:38,023 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 12:11:38,088 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 12:11:38,089 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 1189 ms
+2024-03-31 12:11:38,165 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-2 - Starting...
+2024-03-31 12:11:38,174 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-2 - Added connection conn11: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 12:11:38,175 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-2 - Start completed.
+2024-03-31 12:11:38,175 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 12:11:38,244 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 12:11:38,256 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 12:11:38,273 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 12:11:38,318 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 12:11:38,320 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 12:11:38,458 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 12:11:38,808 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 12:11:38,840 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 12:11:38,845 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 12:11:38,860 [restartedMain] INFO  com.example.Application                            -Started Application in 2.076 seconds (process running for 259.412)
+2024-03-31 12:11:38,868 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  -Condition evaluation unchanged
+2024-03-31 12:11:41,271 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -Restarting due to 11 class path changes (11 additions, 0 deletions, 0 modifications)
+2024-03-31 12:11:41,275 [Thread-7] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 12:11:41,302 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 12:11:41,341 [Thread-7] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 12:11:41,360 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-2 - Shutdown initiated...
+2024-03-31 12:11:41,423 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-2 - Shutdown completed.
+2024-03-31 12:11:41,635 [restartedMain] INFO  com.example.Application                            -Starting Application using Java 17.0.4.1 with PID 1628 (D:\Coding\MiniProj-1\01-PLANS_API-1\target\classes started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 12:11:41,640 [restartedMain] INFO  com.example.Application                            -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 12:11:42,021 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 12:11:42,036 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2024-03-31 12:11:42,180 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat initialized with port 8081 (http)
+2024-03-31 12:11:42,181 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Initializing ProtocolHandler ["http-nio-8081"]
+2024-03-31 12:11:42,181 [restartedMain] INFO  o.apache.catalina.core.StandardService             -Starting service [Tomcat]
+2024-03-31 12:11:42,182 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            -Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31 12:11:42,209 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 -Initializing Spring embedded WebApplicationContext
+2024-03-31 12:11:42,209 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     -Root WebApplicationContext: initialization completed in 556 ms
+2024-03-31 12:11:42,231 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-3 - Starting...
+2024-03-31 12:11:42,238 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-3 - Added connection conn21: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 12:11:42,238 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-3 - Start completed.
+2024-03-31 12:11:42,239 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              -H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-31 12:11:42,285 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 12:11:42,291 [restartedMain] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 12:11:42,300 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 12:11:42,454 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 12:11:42,461 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 12:11:42,907 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 12:11:43,224 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 -LiveReload server is running on port 35729
+2024-03-31 12:11:43,248 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           -Starting ProtocolHandler ["http-nio-8081"]
+2024-03-31 12:11:43,257 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            -Tomcat started on port 8081 (http) with context path ''
+2024-03-31 12:11:43,270 [restartedMain] INFO  com.example.Application                            -Started Application in 1.722 seconds (process running for 263.823)
+2024-03-31 12:11:43,274 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  -Condition evaluation unchanged
+2024-03-31 12:11:46,195 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils       -Could not detect default configuration classes for test class [com.example.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-03-31 12:11:46,436 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        -Found @SpringBootConfiguration com.example.Application for test class com.example.ApplicationTests
+2024-03-31 12:11:46,796 [main] INFO  o.s.b.d.r.RestartApplicationListener               -Restart disabled due to context in which it is running
+2024-03-31 12:11:47,323 [main] INFO  com.example.ApplicationTests                       -Starting ApplicationTests using Java 17.0.4.1 with PID 11800 (started by Lenovo in D:\Coding\MiniProj-1\01-PLANS_API-1)
+2024-03-31 12:11:47,326 [main] INFO  com.example.ApplicationTests                       -No active profile set, falling back to 1 default profile: "default"
+2024-03-31 12:11:49,002 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31 12:11:49,119 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          -Finished Spring Data repository scanning in 103 ms. Found 2 JPA repository interfaces.
+2024-03-31 12:11:50,098 [main] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Starting...
+2024-03-31 12:11:50,445 [main] INFO  com.zaxxer.hikari.pool.HikariPool                  -HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=GAURAV
+2024-03-31 12:11:50,449 [main] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Start completed.
+2024-03-31 12:11:50,547 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            -HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-31 12:11:50,711 [main] INFO  org.hibernate.Version                              -HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-31 12:11:50,789 [main] INFO  o.h.c.internal.RegionFactoryInitiator              -HHH000026: Second-level cache disabled
+2024-03-31 12:11:51,386 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo                -No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31 12:11:52,879 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-31 12:11:52,950 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 12:11:54,036 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31 12:11:55,054 [main] INFO  com.example.ApplicationTests                       -Started ApplicationTests in 8.286 seconds (process running for 10.887)
+2024-03-31 12:11:56,764 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 12:11:56,777 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Shutdown initiated...
+2024-03-31 12:11:56,782 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-1 - Shutdown completed.
+2024-03-31 13:34:51,369 [RMI TCP Connection(92)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+2024-03-31 13:34:51,374 [RMI TCP Connection(92)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           -Stopping ProtocolHandler ["http-nio-8081"]
+2024-03-31 13:34:51,397 [RMI TCP Connection(92)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     -Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31 13:34:51,402 [RMI TCP Connection(92)-127.0.0.1] WARN  o.s.b.f.support.DisposableBeanAdapter              -Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-03-31 13:34:51,403 [RMI TCP Connection(92)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-3 - Shutdown initiated...
+2024-03-31 13:34:51,404 [RMI TCP Connection(92)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 -HikariPool-3 - Shutdown completed.
